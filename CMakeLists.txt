@@ -11,7 +11,7 @@ file(GLOB_RECURSE SCENES_SOURCES CONFIGURE_DEPENDS "src/scenes/**.cpp" "src/scen
 source_group("scenes" FILES ${SCENES_SOURCES})
 
 # Set source files for executable.
-add_executable(${NAME} "src/main.cpp" ${SCENES_SOURCES} "src/scenes/AssignmentTwo.h" "src/scenes/AssignmentTwo.cpp" "src/scenes/AssignmentFour.cpp" "src/scenes/AssignmentFour.h")
+add_executable(${NAME} "src/main.cpp" ${SCENES_SOURCES} "src/scenes/AssignmentTwo.h" "src/scenes/AssignmentTwo.cpp" "src/scenes/AssignmentFour.cpp" "src/scenes/AssignmentFour.h" "src/scenes/AssignmentFive.cpp" "src/scenes/AssignmentFive.h")
 
 target_include_directories(${NAME} PRIVATE src)
 
