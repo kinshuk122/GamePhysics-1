@@ -3,9 +3,7 @@
 #include <core/Draw.h>
 #include <glm/vec2.hpp>
 
-float myParticleY = 2.0f;
-float myVelocityY = 0.0f;
-float myGravity = -9.8f;
+
 
 void AssignmentOne::OnEnable() {}
 

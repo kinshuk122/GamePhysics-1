@@ -11,4 +11,9 @@ public:
     virtual void DrawGUI() override;
 
     virtual const char* GetName() override { return "AssignmentOne"; };
+
+    private:
+        float myParticleY = 2.0f;
+        float myVelocityY = 0.0f;
+        float myGravity = -9.8f;
 };
