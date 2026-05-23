@@ -4,6 +4,7 @@
 #include "scenes/AssignmentTwo.h"
 #include "scenes/AssignmentFour.h"
 #include "scenes/AssignmentFive.h"
+#include "scenes/AssignmentEight.h"
 
 int main(int argc, char** argv) {
     std::vector<Scene*> scenes = {
@@ -11,8 +12,8 @@ int main(int argc, char** argv) {
         new AssignmentOne(),
         new AssignmentTwo(),
         new AssignmentFour(),
-        new AssignmentFive()
-
+        new AssignmentFive(),
+        new AssignmentEight()
     };
     Application app(scenes);
     return app.Run();
